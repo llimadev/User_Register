@@ -1,4 +1,4 @@
-package com.example.usermanagement.ui;
+package com.app.usermanagement.ui;
 
 import javax.swing.plaf.FontUIResource;
 import java.awt.Font;
@@ -12,10 +12,10 @@ public class MainApp {
             UIManager.put("Label.font", font);
             UIManager.put("Button.font", font);
             UIManager.put("TextField.font", font);
-            Frame frame = new Frame();
+            new Frame();
 
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException ex) {
-            ex.printStackTrace();
+            ex.printStackTrace(System.out);
         }
     }
 }
