@@ -30,7 +30,7 @@ public class Frame extends MigLayout {
         ageTextField.setDocument(Common.limitChar(3)); //Applying a limit of 3 char in this field
         JTextField emailTextField = new JTextField();
         JButton registerButton = new JButton("Cadastrar");
-        JButton viewUsersButton = new JButton("View Users");
+        JButton viewUsersButton = new JButton("Ver usuários");
 
         // Adding the components created above to the panel/frame
         panel.add(labelName);
