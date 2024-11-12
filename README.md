@@ -2,11 +2,14 @@
 
 ### Overview
 
-This Java Swing application provides a simple user interface for registering new users. Users can input their name, age, and email address, which are then stored in a SQL database. The application also allows users to view a list of registered users in the order they were added.
+This Java Swing application provides a simple user interface for registering new users. Users can input their name, age,
+and email address, which are then stored in a SQL database. The application also allows users to view a list of
+registered users in the order they were added.
 
 ### Features
 
 User Registration:
+
 * Collects user information via text fields.
 * Stores user data in a SQL database.
 * User View:
@@ -18,20 +21,21 @@ Prerequisites:
 Java Development Kit (JDK) installed.
 
 ### Compile and Run:
+
 * Compile the Java source code using a Java compiler.
 * Run the compiled class file to start the application.
 
 ### Code Structure
 
 * Main Class:
-Creates the main application window.
-Initializes UI components (text fields, buttons, labels).
-Handles button click events to trigger registration and user view actions.
+  Creates the main application window.
+  Initializes UI components (text fields, buttons, labels).
+  Handles button click events to trigger registration and user view actions.
 
 * Database Class (Coming soon):
 
 * Search Functionality (Coming soon): Implement a search feature to filter users based on name, age, or email.
-User Interface Improvement: Enhance the user interface with better layout, styling, and user experience.
+  User Interface Improvement: Enhance the user interface with better layout, styling, and user experience.
 
 ### Contributing
 
@@ -47,8 +51,7 @@ Feel free to contribute to this project by:
 
 Copyright (c) 2024 Leonel
 
-Permission is hereby granted, free of charge, to any person obtaining   
- a copy
+Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
